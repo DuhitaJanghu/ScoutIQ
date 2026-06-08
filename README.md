@@ -25,6 +25,60 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+
+## How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-link>
+cd <project-folder>
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+4. Run on device/emulator:
+
+* Press `a` for Android emulator
+* Press `w` for web
+* Scan the Expo QR code using the Expo Go app on your phone
+
+---
+
+## Key Technical Decisions
+
+* Used React Native with Expo for faster development and easier cross-platform support.
+* Organized the project into reusable components to keep the code maintainable and scalable.
+* Used REST APIs for data communication between frontend and backend services.
+* Chose a simple and clean UI approach to prioritize usability and faster performance.
+* Implemented modular folder structure for better readability and future expansion.
+
+---
+
+## What’s Incomplete and Why
+
+* Some advanced UI polish and animations are incomplete due to limited development time.
+* Error handling for a few edge cases can still be improved.
+* Authentication and persistent backend storage are partially implemented/not fully production-ready.
+* Testing coverage is limited because priority was given to building the core functionality first.
+
+---
+
+## One Thing I Would Do Differently With More Time
+
+With more time, I would improve the overall architecture by adding a more scalable state management solution, stronger backend integration, and a complete testing setup to make the application more production-ready and easier to maintain long term.
+
+
 ## Get a fresh project
 
 When you're ready, run:
